@@ -1,0 +1,27 @@
+@import "bootstrap/scss/bootstrap";
+.no-list {
+  list-style: none;
+}
+
+.btn-edit {
+  background-color: rgb(185, 185, 185);
+  padding: 9px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-edit:hover {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(168, 165, 165);
+  box-shadow: 1px 1px 10px gray;
+}
+
+.details {
+  background-color: rgb(236, 236, 164);
+  margin: 30px;
+  height: 80px;
+  text-align: center;
+  width: 100px;
+}

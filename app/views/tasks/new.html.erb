@@ -1,0 +1,12 @@
+<h1 class="text-center mt-4">Add a new task</h1>
+
+<%= form_for(@task) do |f| %>
+  <div class="form-group">
+    <%= f.label :title, class: 'bold'%>
+    <%= f.text_field :title, class: 'form-control mb-4'%>
+
+    <%= f.label :details %>
+    <%= f.text_area :details, class: 'form-control mb-4'%>
+    <%= f.submit class: 'btn btn-primary'%>
+  </div>
+<% end %>
